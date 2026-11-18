@@ -1,0 +1,15 @@
+# Optional: a ready MySQL for local development ->  docker compose up -d
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: osrjc-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: change-me
+      MYSQL_DATABASE: osrjc
+    ports:
+      - "3306:3306"
+    volumes:
+      - osrjc-mysql-data:/var/lib/mysql
+volumes:
+  osrjc-mysql-data:

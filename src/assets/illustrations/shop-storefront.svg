@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Illustration of a juice shop storefront">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7e6"/>
+      <stop offset="100%" stop-color="#f0fbf4"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#sky)"/>
+
+  <!-- ground -->
+  <rect x="0" y="300" width="480" height="60" fill="#e8e2d0"/>
+
+  <!-- shop building -->
+  <rect x="70" y="120" width="340" height="180" fill="#ffffff" stroke="#e0dccb" stroke-width="2"/>
+
+  <!-- awning stripes -->
+  <g>
+    <path d="M60 120 L420 120 L400 90 L80 90 Z" fill="#ff8c00"/>
+    <path d="M80 90 L400 90 L390 75 L90 75 Z" fill="#2d6a4f"/>
+    <g fill="#ffffff" opacity="0.85">
+      <rect x="95" y="90" width="20" height="30"/>
+      <rect x="135" y="90" width="20" height="30"/>
+      <rect x="175" y="90" width="20" height="30"/>
+      <rect x="215" y="90" width="20" height="30"/>
+      <rect x="255" y="90" width="20" height="30"/>
+      <rect x="295" y="90" width="20" height="30"/>
+      <rect x="335" y="90" width="20" height="30"/>
+      <rect x="375" y="90" width="20" height="30"/>
+    </g>
+  </g>
+
+  <!-- signboard -->
+  <rect x="150" y="130" width="180" height="34" rx="8" fill="#1b4332"/>
+  <circle cx="172" cy="147" r="9" fill="#ffb700"/>
+  <rect x="192" y="140" width="120" height="14" rx="4" fill="#ffe9c2"/>
+
+  <!-- window with juice glasses -->
+  <rect x="90" y="180" width="110" height="90" rx="6" fill="#eaf7f0" stroke="#cfe8da" stroke-width="2"/>
+  <rect x="115" y="215" width="20" height="45" rx="4" fill="#ffb700"/>
+  <rect x="145" y="200" width="20" height="60" rx="4" fill="#ff6b6b"/>
+  <rect x="175" y="222" width="18" height="38" rx="4" fill="#74c69d"/>
+
+  <!-- door -->
+  <rect x="220" y="190" width="70" height="110" fill="#2d6a4f"/>
+  <circle cx="280" cy="248" r="4" fill="#ffe9c2"/>
+
+  <!-- second window -->
+  <rect x="310" y="180" width="90" height="90" rx="6" fill="#eaf7f0" stroke="#cfe8da" stroke-width="2"/>
+  <circle cx="335" cy="225" r="16" fill="#ffd166"/>
+  <circle cx="370" cy="235" r="20" fill="#ff8c00"/>
+
+  <!-- fruit crates -->
+  <g>
+    <rect x="30" y="255" width="45" height="35" rx="4" fill="#e9a319"/>
+    <circle cx="42" cy="255" r="9" fill="#ff8c00"/>
+    <circle cx="58" cy="253" r="9" fill="#ffd166"/>
+    <circle cx="68" cy="260" r="8" fill="#e63946"/>
+
+    <rect x="400" y="255" width="50" height="35" rx="4" fill="#e9a319"/>
+    <circle cx="415" cy="255" r="9" fill="#74c69d"/>
+    <circle cx="430" cy="253" r="9" fill="#ffb700"/>
+    <circle cx="442" cy="260" r="8" fill="#ff6b6b"/>
+  </g>
+</svg>

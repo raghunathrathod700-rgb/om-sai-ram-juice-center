@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Hygiene shield illustration">
+  <defs>
+    <linearGradient id="shieldBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#74c69d"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 10 L100 26 C100 60 90 92 60 110 C30 92 20 60 20 26 Z" fill="url(#shieldBody)"/>
+  <path d="M42 58 L54 70 L80 42" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

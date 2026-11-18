@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Apple illustration">
+  <defs>
+    <linearGradient id="appleBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#e63946"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 40 C40 32 18 46 18 72 C18 96 38 108 55 108 C58 108 62 108 65 108 C82 108 102 96 102 72 C102 44 78 32 60 40 Z" fill="url(#appleBody)"/>
+  <path d="M58 40 C56 28 60 18 60 18" stroke="#6f4518" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M60 22 Q76 14 82 26 Q68 28 60 22 Z" fill="#74c69d"/>
+  <ellipse cx="42" cy="60" rx="14" ry="9" fill="#ffffff" opacity="0.35" transform="rotate(-20 42 60)"/>
+</svg>

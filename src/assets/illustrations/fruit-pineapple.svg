@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Pineapple illustration">
+  <defs>
+    <linearGradient id="pineBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#e9a319"/>
+    </linearGradient>
+  </defs>
+  <!-- crown -->
+  <g fill="#2d6a4f">
+    <path d="M60 10 L66 40 L54 40 Z"/>
+    <path d="M42 16 L58 42 L46 44 Z"/>
+    <path d="M78 16 L74 44 L62 42 Z"/>
+    <path d="M28 26 L50 46 L38 50 Z"/>
+    <path d="M92 26 L82 50 L70 46 Z"/>
+  </g>
+  <!-- body -->
+  <ellipse cx="60" cy="90" rx="38" ry="44" fill="url(#pineBody)"/>
+  <g stroke="#c9860e" stroke-width="2" opacity="0.6" fill="none">
+    <path d="M28 70 Q60 82 92 70"/>
+    <path d="M25 90 Q60 104 95 90"/>
+    <path d="M28 110 Q60 122 92 110"/>
+    <path d="M45 50 Q50 90 45 130"/>
+    <path d="M75 50 Q70 90 75 130"/>
+  </g>
+</svg>

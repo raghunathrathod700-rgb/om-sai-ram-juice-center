@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Watermelon slice illustration">
+  <path d="M12 60 A48 48 0 0 1 108 60 Z" fill="#2d6a4f"/>
+  <path d="M18 60 A42 42 0 0 1 102 60 Z" fill="#f1faee"/>
+  <path d="M24 60 A36 36 0 0 1 96 60 Z" fill="#ff6b6b"/>
+  <circle cx="48" cy="46" r="3.2" fill="#1b2d1f"/>
+  <circle cx="62" cy="42" r="3.2" fill="#1b2d1f"/>
+  <circle cx="76" cy="48" r="3.2" fill="#1b2d1f"/>
+  <circle cx="55" cy="55" r="3.2" fill="#1b2d1f"/>
+  <circle cx="68" cy="55" r="3.2" fill="#1b2d1f"/>
+</svg>

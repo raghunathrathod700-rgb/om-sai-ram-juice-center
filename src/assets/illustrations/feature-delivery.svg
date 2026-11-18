@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 120" role="img" aria-label="Local delivery bicycle illustration">
+  <g fill="none" stroke="#ff8c00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="34" cy="86" r="22" stroke="#1b4332"/>
+    <circle cx="106" cy="86" r="22" stroke="#1b4332"/>
+    <path d="M34 86 L64 44 L92 44"/>
+    <path d="M64 44 L78 86 L106 86"/>
+    <path d="M78 86 L34 86"/>
+    <path d="M56 44 L72 44"/>
+  </g>
+  <circle cx="34" cy="86" r="4" fill="#1b4332"/>
+  <circle cx="106" cy="86" r="4" fill="#1b4332"/>
+  <rect x="90" y="30" width="26" height="20" rx="4" fill="#ffb700"/>
+  <path d="M64 44 L52 30" stroke="#1b4332" stroke-width="6" stroke-linecap="round"/>
+</svg>

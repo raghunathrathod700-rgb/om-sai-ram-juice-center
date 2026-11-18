@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 460" role="img" aria-label="Illustration of a fresh mango juice glass with fruit garnish">
+  <defs>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1b4332" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1b4332" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="210" cy="420" rx="150" ry="26" fill="url(#shadow)"/>
+
+  <!-- glass -->
+  <path d="M120 150 L140 400 Q210 420 280 400 L300 150 Z" fill="url(#glass)" stroke="#ffffff" stroke-width="4"/>
+  <!-- liquid -->
+  <path d="M128 190 L142 395 Q210 413 278 395 L292 190 Q210 210 128 190 Z" fill="url(#liquid)"/>
+  <!-- liquid top ellipse -->
+  <ellipse cx="210" cy="188" rx="82" ry="18" fill="#ffd166"/>
+
+  <!-- ice cubes -->
+  <rect x="160" y="205" width="26" height="26" rx="5" fill="#ffffff" opacity="0.75" transform="rotate(12 173 218)"/>
+  <rect x="220" y="230" width="24" height="24" rx="5" fill="#ffffff" opacity="0.65" transform="rotate(-10 232 242)"/>
+
+  <!-- straw -->
+  <rect x="228" y="70" width="16" height="230" rx="8" fill="#e63946" transform="rotate(10 236 185)"/>
+  <rect x="228" y="70" width="16" height="18" rx="6" fill="#ffffff" opacity="0.5" transform="rotate(10 236 79)"/>
+
+  <!-- orange slice garnish -->
+  <g transform="translate(300 165) rotate(18)">
+    <circle cx="0" cy="0" r="36" fill="#ffb700"/>
+    <circle cx="0" cy="0" r="30" fill="#ffd166"/>
+    <g stroke="#ffb700" stroke-width="2">
+      <line x1="0" y1="-28" x2="0" y2="28"/>
+      <line x1="-24" y1="-16" x2="24" y2="16"/>
+      <line x1="-24" y1="16" x2="24" y2="-16"/>
+    </g>
+  </g>
+
+  <!-- mint leaf -->
+  <path d="M150 168 Q130 150 148 132 Q168 150 150 168 Z" fill="#74c69d"/>
+
+  <!-- floating droplets -->
+  <circle cx="80" cy="120" r="7" fill="#ffb700" opacity="0.6"/>
+  <circle cx="345" cy="260" r="9" fill="#74c69d" opacity="0.6"/>
+  <circle cx="60" cy="300" r="6" fill="#ff8c00" opacity="0.55"/>
+</svg>
